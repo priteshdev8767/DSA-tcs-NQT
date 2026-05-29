@@ -1,0 +1,24 @@
+//Reverse the given array
+#include<iostream>
+#include<algorithm>
+using namespace std;
+void reversArray(int arr[], int n)
+{
+    int start = 0;
+    int end = n-1;
+    swap(arr[start], arr[end]);
+    start++;
+    end--;
+}
+int main()
+{
+    int arr[] = {1, 2, 3, 4, 5};
+    int n;
+    n = sizeof(arr)/sizeof(arr[0]);
+    reversArray(arr,n);
+    for(int i=0; i<n ; i++)
+    {
+        cout<<arr[i]<<" ";
+    }
+    return 0;
+}
