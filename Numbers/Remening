@@ -1,11 +1,156 @@
-Priority Order for Remaining Preparation
-Fibonacci Series
-Prime Numbers in Range
-Strong Number
-Largest of Three Numbers
-Power of Number
-Count Digits
-Even/Odd
-Positive/Negative/Zero
-Harshad Number
-Neon Number
+1.
+2. Prime Numbers in Range
+3. Harshad Number
+4. Replace 0 with 1
+5. Power of Number
+6. Automorphic Number
+7. Abundant Number
+
+
+
+
+------------------------------------------------------------------------------
+You've completed almost all the important Number questions from your PDF:
+
+1. ✅ Sum of Digits
+2. ✅ Reverse Number
+3. ✅ Palindrome Number
+4. ✅ Prime Number
+5. ✅ Sum of First N Prime Numbers
+6. ✅ GCD & LCM
+7. ✅ Armstrong Number
+8. ✅ Sum of First N Natural Numbers
+9. ✅ Factorial
+10. ✅ Perfect Number 
+
+### Next Most Important TCS NQT Number Questions
+
+#### 1. Fibonacci Series ⭐⭐⭐⭐⭐
+
+```text
+Input: 7
+Output: 0 1 1 2 3 5 8
+```
+
+#### 2. Nth Fibonacci Number ⭐⭐⭐⭐⭐
+
+```text
+Input: 7
+Output: 8
+```
+
+#### 3. Print All Prime Numbers in a Range ⭐⭐⭐⭐⭐
+
+```text
+Input: 10 20
+Output: 11 13 17 19
+```
+
+#### 4. Count Digits in a Number ⭐⭐⭐⭐
+
+```text
+Input: 12345
+Output: 5
+```
+
+#### 5. Check Even or Odd ⭐⭐⭐⭐
+
+```text
+Input: 7
+Output: Odd
+```
+
+#### 6. Check Positive, Negative or Zero ⭐⭐⭐⭐
+
+```text
+Input: -5
+Output: Negative
+```
+
+#### 7. Find Largest of Three Numbers ⭐⭐⭐⭐⭐
+
+```text
+Input: 10 20 15
+Output: 20
+```
+
+#### 8. Swap Two Numbers ⭐⭐⭐⭐
+
+```text
+Input: 10 20
+Output: 20 10
+```
+
+#### 9. Power of a Number (a^b) ⭐⭐⭐⭐⭐
+
+```text
+Input: 2 5
+Output: 32
+```
+
+#### 10. Strong Number ⭐⭐⭐⭐⭐
+
+```text
+145 = 1! + 4! + 5!
+Output: Strong Number
+```
+
+#### 11. Automorphic Number ⭐⭐⭐⭐
+
+```text
+Input: 25
+Output: Automorphic
+```
+
+Because:
+
+```text
+25² = 625
+```
+
+ends with 25.
+
+#### 12. Harshad Number ⭐⭐⭐⭐
+
+```text
+Input: 18
+Output: Harshad Number
+```
+
+Because:
+
+```text
+1 + 8 = 9
+18 % 9 = 0
+```
+
+#### 13. Neon Number ⭐⭐⭐⭐
+
+```text
+Input: 9
+Output: Neon Number
+```
+
+Because:
+
+```text
+9² = 81
+8 + 1 = 9
+```
+
+---
+
+### Priority Order for Remaining Preparation
+
+1. Fibonacci Series
+2. Prime Numbers in Range
+3. Strong Number
+4. Largest of Three Numbers
+5. Power of Number
+6. Count Digits
+7. Even/Odd
+8. Positive/Negative/Zero
+9. Harshad Number
+10. Neon Number
+
+Start with **Fibonacci Series** next. It is one of the most frequently asked TCS NQT number questions. 🚀
