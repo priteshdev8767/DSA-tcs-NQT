@@ -1,0 +1,77 @@
+✅ Must Do (High Priority)
+Palindrome String
+Reverse String
+Character Frequency
+Anagram Check
+Count Vowels, Consonants, Spaces
+Remove Spaces
+Remove Vowels
+Sum of Numbers in String
+
+
+From the remaining questions in your screenshot, arranged from **easiest → hardest**, while keeping their **original numbering**:
+
+# 🟢 Easy
+
+| Original No. | Question                                                                                    |
+| ------------ | ------------------------------------------------------------------------------------------- |
+|                                                          |
+| 13           |                                                     |
+| 1            |                                                             |
+| 9            | Return maximum occurring character in the input string                                      |
+| 3            | Calculate frequency of characters in a string                                               |
+| 15           | Write a program to sort characters in a string                                              |
+| 14           | Write a program to find the largest word in a given string                                  |
+| 19           | Write a program to find a substring within a string. If found display its starting position |
+| 20           | Reverse words in a string                                                                   |
+
+---
+
+# 🟡 Medium
+
+| Original No. | Question                                                                                          |
+| ------------ | ------------------------------------------------------------------------------------------------- |
+| 2            | Capitalize first and last character of each word                                                  |
+| 5            | Check if two strings are anagram of each other                                                    |
+| 4            | Find Non-repeating characters of a String                                                         |
+| 10           | Remove all duplicates from the input string                                                       |
+| 11           | Print all the duplicates in the input string                                                      |
+| 12           | Remove characters from first string present in the second string                                  |
+| 16           | Write a program to find a word in a given string which has the highest number of repeated letters |
+| 8            | Change every letter with the next lexicographic alphabet in the given string                      |
+
+---
+
+# 🔴 Hard
+
+| Original No. | Question                                                                 |
+| ------------ | ------------------------------------------------------------------------ |
+| 6            | Count common sub-sequence in two strings                                 |
+| 7            | Check if two strings match where one string contains wildcard characters |
+
+---
+
+# If your goal is TCS NQT
+
+Do these next in this order:
+
+```text
+17. Change case of each character
+18. Concatenate one string to another
+13. Count number of words
+1. Sum of numbers in string
+3. Frequency of characters
+9. Maximum occurring character
+14. Largest word
+15. Sort characters
+19. Find substring
+20. Reverse words
+5. Anagram
+4. Non-repeating character
+10. Remove duplicates
+11. Print duplicates
+```
+
+You can **skip 6 and 7 for now** because they are much less likely in TCS NQT and significantly harder than the rest.
+
+After completing the above 15 questions, your string preparation will be more than enough for typical TCS NQT coding rounds. 🚀
