@@ -1,2 +1,23 @@
 git add . && git commit -m "update" && git push origin master
 
+
+Rename-Item "AVG of all elemnt.cpp" "ArrayAverage.cpp"
+Rename-Item "SumOfAllelement.cpp" "ArraySum.cpp"
+Rename-Item "reverseArray.cpp" "ReverseArray.cpp"
+Rename-Item "SortedORnot.cpp" "IsArraySorted.cpp"
+Rename-Item "smallestElement.cpp" "SmallestElement.cpp"
+Rename-Item "largestElement.cpp" "LargestElement.cpp"
+Rename-Item "secondLargestSecondSmallest.cpp" "SecondLargestSecondSmallest.cpp"
+Rename-Item "linearSearch.cpp" "LinearSearch.cpp"
+Rename-Item "insert element in array at end.cpp" "InsertAtEnd.cpp"
+Rename-Item "insert element at benging.cpp" "InsertAtBeginning.cpp"
+Rename-Item "insert element at specific position.cpp" "InsertAtPosition.cpp"
+Rename-Item "MeanMod.cpp" "MeanMedian.cpp"
+Rename-Item "frequencyArray.cpp" "FrequencyCount.cpp"
+Rename-Item "TwoSum Count pairs.cpp" "TwoSumCountPairs.cpp"
+Rename-Item "TwoSum with hash map.cpp" "TwoSumHashMap.cpp"
+Rename-Item "TwoSum with more space compexity.cpp" "TwoSumOptimized.cpp"
+
+
+
+
