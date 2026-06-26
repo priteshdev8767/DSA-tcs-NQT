@@ -1,54 +1,49 @@
-#include <bits/stdc++.h>
+#include <iostream>
 using namespace std;
 
-class Solution {
-public:
-    // Function to reverse the order of words 
-    string reverseWords(string s) {
-        // Result string to store final output
-        string result = "";
-        
-        // Pointer starting from the last character
-        int i = s.size() - 1;
-        
-        // Traverse string from right to left
-        while (i >= 0) {
-            // Skip spaces at the current position
-            while (i >= 0 && s[i] == ' ') {
-                i--;
-            }
-            
-            // If pointer is out of bounds, break
-            if (i < 0) break;
-            
-            // Mark the end of the current word
-            int end = i;
-            
-            // Move left until a space or start of string is found
-            while (i >= 0 && s[i] != ' ') {
-                i--;
-            }
-            
-            // Extract the current word
-            string word = s.substr(i + 1, end - i);
-            
-            // Add space before appending next word if result is not empty
-            if (!result.empty()) {
-                result += " ";
-            }
-            
-            // Append the word to the result
-            result += word;
-        }
-        
-        return result;
-    }
-};
+int main()
+{
+    string str;
+    getline(cin, str);
 
-// Driver code
-int main() {
-    Solution obj;
-    string s = " amazing coding skills ";
-    cout << obj.reverseWords(s) << endl;
+    string ans = "";
+    int i = str.length() - 1;
+
+    while(i >= 0)
+    {
+        // Skip extra spaces
+        while(i >= 0 && str[i] == ' ')
+        {
+            i--;
+        }
+
+        if(i < 0)
+            break;
+
+        int j = i;
+
+        // Find the beginning of the word
+        while(j >= 0 && str[j] != ' ')
+        {
+            j--;
+        }
+
+        // Add space between words
+        if(!ans.empty())
+        {
+            ans += " ";
+        }
+
+        // Copy the word
+        for(int k = j + 1; k <= i; k++)
+        {
+            ans += str[k];
+        }
+
+        i = j;
+    }
+
+    cout << ans;
+
     return 0;
 }
