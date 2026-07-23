@@ -7,7 +7,7 @@ int main()
     cin >> n;
 
     int arr[1000];
-    int k = 0;
+    int k = 0;   // because of unique 1st element 
 
     for(int i = 0; i < n; i++)
     {
@@ -34,3 +34,4 @@ int main()
 
     return 0;
 }
+//done

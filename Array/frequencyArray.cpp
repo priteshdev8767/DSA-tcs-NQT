@@ -24,3 +24,4 @@ int main()
     freqency(arr,n);
     return 0;
 }
+//done

@@ -14,3 +14,4 @@ int main()
     avg = sum/n;
     cout<<"AVG of all element is: "<<avg;
 }
+//done

@@ -19,7 +19,7 @@ int main()
     //Median
     sort(arr,arr+n);
     float Median;
-    if(n%2==1){  //ODD
+    if(n%2==1){  //ODD               //sort(arr, arr+n)
         Median= arr[n/2];
     }
     else{
@@ -30,3 +30,4 @@ int main()
     return 0;
 
 }
+//done

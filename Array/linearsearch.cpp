@@ -18,3 +18,4 @@ int main()
   cout<<"youre index is="<<print;
   cout<<"NUmber is "<<inp;
 }
+//done

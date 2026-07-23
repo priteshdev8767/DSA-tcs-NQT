@@ -18,3 +18,4 @@ int main()
     cout<<"The Smallest Eleement is "<<print<<endl;
     
 }
+//done

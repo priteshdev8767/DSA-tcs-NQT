@@ -50,3 +50,4 @@ int main()
     cout<<"Secound Smallest"<<Ss<<endl;
     return 0 ;
 }
+//done

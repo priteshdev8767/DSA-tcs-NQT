@@ -12,7 +12,7 @@ int main()
     {
         cin>>arr[i];
     }
-    int k;
+    int k;                       //right aahe mhanu last pasun start honar so 1st whole sub arrya will reverse
     cin>>k;
     k= k%n;
 
@@ -26,3 +26,4 @@ int main()
 
     return 0;
 }
+//done

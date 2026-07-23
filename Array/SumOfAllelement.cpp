@@ -12,3 +12,4 @@ int main()
     }
     cout<<"Sum of all element is: "<<sum;
 }
+//done

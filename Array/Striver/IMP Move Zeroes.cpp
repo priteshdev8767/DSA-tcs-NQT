@@ -19,7 +19,7 @@ int main()
     // Move non-zero elements to the front
     for(int i = 0; i < n; i++)
     {
-        if(arr[i] != 0)
+        if(arr[i] != 0)  //no zeros arrays should be deffrent 
         {
             int temp = arr[i]; // temp for the varialbe hold
             arr[i] = arr[j];
@@ -35,4 +35,6 @@ int main()
     }
 
     return 0;
+
 }
+//done

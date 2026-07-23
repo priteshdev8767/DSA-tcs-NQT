@@ -14,7 +14,7 @@ int main()
     }
     int k;
     cin>>k;
-    k = k%n;
+    k = k%n;   //sub array bhetla                                          //left aahe mhanu assending order madhe jatoy 
     reverse(arr, arr+k); //reverse 1st sub arra
     reverse(arr+k, arr+n); // reverse remaing sub array
     reverse(arr, arr+n);// reverse whole array
@@ -25,3 +25,4 @@ int main()
 
     return 0;
 }
+//done

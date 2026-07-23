@@ -13,7 +13,8 @@ int main()
     }
     int element;
    cin>>element;
-    for(int i=n; i>0; i--){
+    for(int i=n; i>0; i--){               //  Index : 0   1   2   3   4   5
+                                             //Value :10  20  30  40  50   i_
         arr[i]=arr[i-1];
     }
     arr[0]=element;
@@ -25,3 +26,4 @@ int main()
     
     return 0;
 }
+//done
